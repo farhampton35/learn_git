@@ -3,3 +3,4 @@ add a line
 create a branch 'dev'
 create a master feature
 add merge
+fast forward
