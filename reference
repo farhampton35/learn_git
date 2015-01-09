@@ -37,10 +37,17 @@
 			Create a merge commit even when the merge resolves as a fast-forward.
 'git stash':		Stash the changes in a dirty working directory away.
 	list
-			list the stashes that you currently have.
+			List the stashes that you currently have.
 	pop
 			Remove a single stashed state from the stash list and apply it on top of the current working tree state.
 	apply
-			do not remove the state from the stash list.
+			Do not remove the state from the stash list.
 	drop
-			remove a single stashed state.
+			Remove a single stashed state.
+'git tag':		Create, list ,delete or verify a tag object signed with GPG.
+	<tagname> <commit id>
+			Create a tag for a commit.
+	-d
+			Delete existing tags with the given names
+	-m <msg>
+			Use the given tag message.
