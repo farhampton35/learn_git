@@ -6,4 +6,9 @@ add merge
 fast forward
 add line
 fix bug 01
+<<<<<<< HEAD
 master continues
+=======
+check git rebase
+asdfjaksdjf;kjas;dlkjfklj
+>>>>>>> update README
