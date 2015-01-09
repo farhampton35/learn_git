@@ -7,6 +7,10 @@
 	--oneline
 	--pretty=oneline
 			print commits in one line
+	--graph
+			Draw a text-based graphical representation of the commit history on the left side
+	--abbrev-commit
+			show only a partial prefix
 'git diff':		Show changes between commits, commit and working tree, etc
 'git add':		Add file contents to the index
 'git rm':		Remove files from the working tree and from the index
