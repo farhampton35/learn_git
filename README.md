@@ -5,3 +5,4 @@ create a master feature
 add merge
 fast forward
 add line
+fix bug 01
