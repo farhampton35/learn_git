@@ -15,3 +15,21 @@
 'git add':		Add file contents to the index
 'git rm':		Remove files from the working tree and from the index
 'git status':		Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
+'git branch':		List, create, or delete branches
+	-d
+			Delete a branch
+'git reset':		Reset current HEAD to the specified state
+	--soft
+			Does not touch the index file or the working tree, just reset the head to <commit>
+	--mixed
+			Reset the index but not working tree and reports what has not been updated. Default action.
+	--hard
+			Reset the index and working tree.
+'git checkout':		Checkout a branch or paths to the working tree.
+	<branch>
+			Switch to <branch> by updating the index and the files in the working tree.
+	-b <branch>
+			Cause a new branch to be created and switch to <branch>.
+	-- <paths>
+			Update the named paths in the working tree from the index file or from a named <tree-ish>
+
