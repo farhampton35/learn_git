@@ -6,3 +6,4 @@ add merge
 fast forward
 add line
 fix bug 01
+master continues
