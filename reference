@@ -1,0 +1,9 @@
+'git init':		Create an empty Git repository or reinitialize an exisiting one
+'git log':		Show commit logs.
+	-<number>
+	-n <number>
+	--max-count = <number>
+			Limit the number of commits to output
+	--oneline
+	--pretty=oneline
+			print commits in one line
