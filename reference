@@ -35,6 +35,7 @@
 'git merge':		Join two or more development histories together.
 	--no-ff
 			Create a merge commit even when the merge resolves as a fast-forward.
+'git rebase':		Forward-port local commits to the updated upstream head.
 'git stash':		Stash the changes in a dirty working directory away.
 	list
 			List the stashes that you currently have.
@@ -51,3 +52,10 @@
 			Delete existing tags with the given names
 	-m <msg>
 			Use the given tag message.
+'git fetch':		Download objects and refs from another repository.
+'git pull':		Fetch from and integrate with another repository or a local branch.
+'git config':		Get and set repository or global options
+	--global
+			write to global ~/.gitconfig file rather than the repository .git/config.
+	-l
+			list all variables set in config file.
