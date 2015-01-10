@@ -59,3 +59,10 @@
 			write to global ~/.gitconfig file rather than the repository .git/config.
 	-l
 			list all variables set in config file.
+'git remote':		Manage set of tracked repositories
+	add <name> <url>
+			Adds a remote named <name> for the repository at <url>.
+	rm <name>
+			Remove the remote named <name>.
+	set-url <name> <url>
+			Changes URL remote points to.
